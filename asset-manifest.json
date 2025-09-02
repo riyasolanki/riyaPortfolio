@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/riyasolanki/riya-portfolio/static/css/main.50b8677d.css",
-    "main.js": "/riyasolanki/riya-portfolio/static/js/main.f7f59189.js",
-    "static/media/profile.jpg": "/riyasolanki/riya-portfolio/static/media/profile.5d7e998cd245753c0205.jpg",
-    "static/media/shopfareast.webp": "/riyasolanki/riya-portfolio/static/media/shopfareast.b7cb1f36bca05f261ded.webp",
-    "static/media/pivitconnexrider.webp": "/riyasolanki/riya-portfolio/static/media/pivitconnexrider.0a724dacc893f3536a78.webp",
-    "static/media/suntec.webp": "/riyasolanki/riya-portfolio/static/media/suntec.e2339ef11a3845798401.webp",
-    "static/media/orionhaus.webp": "/riyasolanki/riya-portfolio/static/media/orionhaus.1635d9981b8e8296de26.webp",
-    "static/media/itdc.webp": "/riyasolanki/riya-portfolio/static/media/itdc.05de24723b76699b9023.webp",
-    "static/media/pivitconnex.webp": "/riyasolanki/riya-portfolio/static/media/pivitconnex.433487bcef7ac5780e11.webp",
-    "index.html": "/riyasolanki/riya-portfolio/index.html"
+    "main.css": "/riyasolanki/riyaPortfolio/static/css/main.50b8677d.css",
+    "main.js": "/riyasolanki/riyaPortfolio/static/js/main.847b1c17.js",
+    "static/media/profile.jpg": "/riyasolanki/riyaPortfolio/static/media/profile.5d7e998cd245753c0205.jpg",
+    "static/media/shopfareast.webp": "/riyasolanki/riyaPortfolio/static/media/shopfareast.b7cb1f36bca05f261ded.webp",
+    "static/media/pivitconnexrider.webp": "/riyasolanki/riyaPortfolio/static/media/pivitconnexrider.0a724dacc893f3536a78.webp",
+    "static/media/suntec.webp": "/riyasolanki/riyaPortfolio/static/media/suntec.e2339ef11a3845798401.webp",
+    "static/media/orionhaus.webp": "/riyasolanki/riyaPortfolio/static/media/orionhaus.1635d9981b8e8296de26.webp",
+    "static/media/itdc.webp": "/riyasolanki/riyaPortfolio/static/media/itdc.05de24723b76699b9023.webp",
+    "static/media/pivitconnex.webp": "/riyasolanki/riyaPortfolio/static/media/pivitconnex.433487bcef7ac5780e11.webp",
+    "index.html": "/riyasolanki/riyaPortfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.50b8677d.css",
-    "static/js/main.f7f59189.js"
+    "static/js/main.847b1c17.js"
   ]
 }
