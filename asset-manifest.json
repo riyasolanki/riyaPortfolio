@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/riyaPortfolio/static/css/main.50b8677d.css",
+    "main.js": "/riyaPortfolio/static/js/main.ca89bc3b.js",
+    "static/media/profile.jpg": "/riyaPortfolio/static/media/profile.5d7e998cd245753c0205.jpg",
+    "static/media/shopfareast.webp": "/riyaPortfolio/static/media/shopfareast.b7cb1f36bca05f261ded.webp",
+    "static/media/pivitconnexrider.webp": "/riyaPortfolio/static/media/pivitconnexrider.0a724dacc893f3536a78.webp",
+    "static/media/suntec.webp": "/riyaPortfolio/static/media/suntec.e2339ef11a3845798401.webp",
+    "static/media/orionhaus.webp": "/riyaPortfolio/static/media/orionhaus.1635d9981b8e8296de26.webp",
+    "static/media/itdc.webp": "/riyaPortfolio/static/media/itdc.05de24723b76699b9023.webp",
+    "static/media/pivitconnex.webp": "/riyaPortfolio/static/media/pivitconnex.433487bcef7ac5780e11.webp",
+    "index.html": "/riyaPortfolio/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.50b8677d.css",
+    "static/js/main.ca89bc3b.js"
+  ]
+}
