@@ -28,6 +28,12 @@
   --overlay-color: rgba(255, 255, 255, 0.9); /* light frosted overlay */
 }
 
+.logo-img {
+  height: 40px; /* adjust as needed */
+  width: auto;
+}
+
+
 html,
 body {
     height: 100%;

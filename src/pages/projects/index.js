@@ -32,12 +32,23 @@ export const Projects = () => {
         </Row>
 
         {/* Project Grid */}
+        {/* Project Grid */}
         <div className="mb-5 po_items_ho">
           <Row>
             {dataportfolio.map((data, i) => (
-              <Col key={i} lg={6} md={6} sm={12} className="d-flex align-items-stretch mb-4">
+              <Col
+                key={i}
+                lg={4}   // 3 columns on large screens
+                md={6}   // 2 columns on medium screens
+                sm={12}  // 1 column on small screens
+                className="d-flex align-items-stretch mb-4"
+              >
                 <div className="po_item text-center w-100">
-                  <img src={data.img} alt={data.title || "project"} className="img-fluid mb-3 project-img" />
+                  <img
+                    src={data.img}
+                    alt={data.title || "project"}
+                    className="img-fluid mb-3 project-img"
+                  />
                   <h5>{data.title}</h5>
                   <Button variant="primary" onClick={() => handleShow(data)}>
                     View Project
@@ -47,6 +58,7 @@ export const Projects = () => {
             ))}
           </Row>
         </div>
+
 
         {/* Modal */}
         {selectedProject && (
@@ -69,7 +81,7 @@ export const Projects = () => {
                   href={selectedProject.storeLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="me-2" 
+                  className="me-2"
                 >
                   Play Store Link
                 </Button>

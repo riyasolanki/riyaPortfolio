@@ -15,17 +15,17 @@ const meta = {
 const introdata = {
     title: "I’m Riya Solanki",
     animated: {
-        first: "I love coding",
-        second: "I code cool mobiles application",
-        third: "I develop mobile apps",
+        first: "Building high-performance mobile apps with React Native & Android",
+        second: "I craft seamless cross-platform mobile experiences",
+        third: "React Native Developer | Android Specialist",
     },
-    description: "Mobile App Developer with over 6 years of experience in building scalable, high-performance mobile applications using React Native and native Android (Java/Kotlin). Skilled in architecting cross-platform solutions, optimizing app performance, and implementing pixel-perfect UI/UX designs. Proven expertise in integrating third-party SDKs, managing state with Redux and MobX, and enhancing app functionality with Firebase, Stripe, and MapBox. Adept at collaborating across teams and delivering quality products on time.",
+    description: "I specialize in designing and developing cross-platform mobile apps that are fast, reliable, and user-friendly. With over 6 years of experience in React Native and Android, I bring expertise in performance optimization, API integration, and smooth UI/UX design. My focus is on delivering secure, scalable, and high-quality apps that meet client needs and provide excellent user experiences.",
     your_img_url: profileImg,
 };
 
 const dataabout = {
-    title: "about my self",
-    aboutme: "Mobile App Developer with over 6 years of experience in building scalable, high-performance mobile applications using React Native and native Android (Java/Kotlin). Skilled in architecting cross-platform solutions, optimizing app performance, and implementing pixel-perfect UI/UX designs. Proven expertise in integrating third-party SDKs, managing state with Redux and MobX, and enhancing app functionality with Firebase, Stripe, and MapBox. Adept at collaborating across teams and delivering quality products on time.",
+    title: "Who I Am",
+    aboutme: "I’m a Mobile App Developer with 6+ years of experience in building high-performance, scalable mobile applications using React Native and Android (Java/Kotlin). I specialize in creating cross-platform solutions, optimizing app performance, and delivering pixel-perfect UI/UX designs. I have proven expertise in integrating third-party SDKs, managing state with Redux and MobX, and enhancing app functionality with Firebase, Stripe, and MapBox. Passionate about technology and collaboration, I strive to deliver secure, user-friendly, and high-quality applications on time.",
 };
 const worktimeline = [{
     jobtitle: "Freelance React Native Developer",
