@@ -8,6 +8,8 @@ import { contactConfig } from "../../content_option";
 import myResume from "../../assets/riyaSolanki.pdf";
 // PDF Viewer
 import { Document, Page, pdfjs } from "react-pdf";
+import { FaDownload } from "react-icons/fa"; // Add at top with other imports
+
 
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
@@ -36,12 +38,22 @@ export const Resume = () => {
         </Helmet>
 
         {/* Page Title */}
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-5 mt-3 pt-md-3 align-items-center justify-content-between">
           <Col lg="8">
             <h1 className="display-4 mb-4">Resume</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
+          <Col lg="4" className="text-lg-end text-center sticky-download">
+            <a
+              href="/assets/riyaSolanki.pdf"
+              download="Riya_Solanki_Resume.pdf"
+              className="btn download-btn"
+            >
+              <FaDownload className="me-2" /> Download PDF
+            </a>
+          </Col>
         </Row>
+
 
         {/* Resume PDF Viewer */}
         <Row className="mt-5">
@@ -76,15 +88,6 @@ export const Resume = () => {
                   Next
                 </button>
               )}
-            </div>
-            <div className="resume-button-container">
-              <a
-                href="/assets/riyaSolanki.pdf"
-                download="Riya_Solanki_Resume.pdf"
-                className="btn btn-primary"
-              >
-                Download Resume PDF
-              </a>
             </div>
 
           </Col>

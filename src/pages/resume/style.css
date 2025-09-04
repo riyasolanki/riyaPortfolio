@@ -21,6 +21,37 @@ button.btn.ac_btn:hover {
   justify-content: center;
 }
 
+/* Sticky download button container */
+.sticky-download {
+  position: sticky;
+  top: 20px;
+  z-index: 999;
+}
+
+.download-btn {
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-weight: 500;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.download-btn:hover {
+  background-color: #0098b3;
+  transform: scale(1.03);
+  color: #fff;
+}
+
+.download-btn svg {
+  font-size: 1rem;
+}
+
 .resume-button-container {
   margin-top: 1.5rem;  /* space above button */
   margin-bottom: 3rem; /* space below button */

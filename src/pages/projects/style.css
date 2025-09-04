@@ -41,6 +41,28 @@
   transform: scale(1.05);
 }
 
+.project-btn {
+  background-color: var(--secondary-color);
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.project-btn:hover {
+  background-color: #0098b3;
+  transform: scale(1.03);
+  color: #fff;
+}
+
+.project-btn svg {
+  font-size: 1rem;
+}
+
+
 /* Overlay */
 .po_item .content {
   position: absolute;

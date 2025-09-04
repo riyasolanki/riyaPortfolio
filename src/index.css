@@ -1,12 +1,17 @@
 :root {
-    --bg-color: #0c0c0c;
-    --primary-color: #0d0d0d;
-    --secondary-color: #fff;
-    --text-color: #fff;
-    --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 63%);
+  --bg-color: #1e1e1e;              /* deep dark grey background */
+  --primary-color: #2a2a2a;         /* lighter dark grey for cards/containers */
+  --secondary-color: #00b4d8;       /* teal accent (contrasts well on dark) */
+  --text-color: #ffffff;            /* bright white for primary text */
+  --text-color-2: #d1d1d1;          /* soft grey for secondary text */
+  --text-color-3: #ff4d4d;          /* bright coral/red for highlights */
+  --overlay-color: rgba(0, 0, 0, 0.7);  /* dark overlay for modals, menus */
+
+  --border-color: #333333;          /* subtle border for inputs/cards */
+  --hover-color: #373737;           /* hover background for elements */
+  --shadow-color: rgba(0, 0, 0, 0.5); /* strong shadows for elevation */
 }
+
 
 /* [data-theme="light"] {
     --bg-color: #ffffff;
@@ -19,13 +24,20 @@
 } */
 
 [data-theme="light"] {
-  --bg-color: #fdfdfd;       /* crisp clean white background */
-  --primary-color: #ffffff;  /* card / section background */
-  --secondary-color: #00b4d8; /* bright teal-blue accent */
-  --text-color: #1a1a1a;     /* almost black, very readable */
-  --text-color-2: #495057;   /* muted gray for secondary text */
-  --text-color-3: #ff6b6b;   /* coral red for highlights */
-  --overlay-color: rgba(255, 255, 255, 0.9); /* light frosted overlay */
+  --bg-color: #fdfdfd;             /* very light gray - better than stark white */
+  --primary-color: #ffffff;        /* clean white for cards, sections */
+  --secondary-color: #076b80;      /* vibrant teal-blue accent */
+  --secondary-color-dark: #4a92aa; /* deeper teal for hover or active states */
+
+  --text-color: #1a1a1a;           /* nearly black - strong readability */
+  --text-color-2: #495057;         /* medium gray - great for secondary text */
+  --text-color-3: #ff6b6b;         /* coral red - perfect for highlights and alerts */
+
+  --text-muted: #6c757d;           /* muted grey for captions, helper text */
+  --border-color: #e0e0e0;         /* soft border for light UI */
+  --overlay-color: rgba(255, 255, 255, 0.85); /* soft frosted white overlay */
+
+  --shadow-color: rgba(0, 0, 0, 0.05); /* subtle shadow for elevation */
 }
 
 .logo-img {
@@ -64,7 +76,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Marcellus;
+    font-family: 'Raleway', sans-serif;
 }
 
 a,

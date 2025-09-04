@@ -50,7 +50,7 @@ export const Projects = () => {
                     className="img-fluid mb-3 project-img"
                   />
                   <h5>{data.title}</h5>
-                  <Button variant="primary" onClick={() => handleShow(data)}>
+                  <Button className="project-btn" onClick={() => handleShow(data)}>
                     View Project
                   </Button>
                 </div>
