@@ -8,6 +8,7 @@ import {
   FaYoutube,
   FaTwitch,
   FaInstagram,
+  FaWhatsapp,
   FaSnapchatGhost,
   FaTiktok,
   FaCircle
@@ -20,6 +21,7 @@ const ICON_MAPPING = {
   github: FaGithub,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
+  whatsapp: FaWhatsapp,
   snapchat: FaSnapchatGhost,
   tiktok: FaTiktok,
   twitter: FaTwitter,

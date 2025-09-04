@@ -199,6 +199,8 @@ const socialprofils = {
     github: "https://github.com/riyasolanki/",
     // facebook: "https://facebook.com",
     linkedin: "https://www.linkedin.com/in/riya-solanki-7a555b154/",
+    whatsapp: "https://wa.me/918460983515",
+    instagram: "https://instagram.com/mrs_riya_dd",
     // twitter: "https://twitter.com",
 };
 export {
