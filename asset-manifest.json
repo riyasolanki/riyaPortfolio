@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/riyaPortfolio/static/css/main.40ff4755.css",
-    "main.js": "/riyaPortfolio/static/js/main.b8e20259.js",
+    "main.js": "/riyaPortfolio/static/js/main.35d4757c.js",
     "static/media/profile.jpg": "/riyaPortfolio/static/media/profile.5d7e998cd245753c0205.jpg",
     "static/media/shopfareast.webp": "/riyaPortfolio/static/media/shopfareast.b7cb1f36bca05f261ded.webp",
     "static/media/riyaSolanki.pdf": "/riyaPortfolio/static/media/riyaSolanki.d746f92d0e6e8611f69f.pdf",
@@ -14,6 +14,6 @@
   },
   "entrypoints": [
     "static/css/main.40ff4755.css",
-    "static/js/main.b8e20259.js"
+    "static/js/main.35d4757c.js"
   ]
 }
