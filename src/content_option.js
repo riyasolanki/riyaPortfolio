@@ -5,8 +5,14 @@ import pivitConnexRiderImg from './assets/images/pivitconnexrider.webp';
 import shopfareast from './assets/images/shopfareast.webp';
 import suntecImg from './assets/images/suntec.webp';
 import orionhausImg from './assets/images/orionhaus.webp';
+import defaultImg from './assets/images/default.png';
+import childcarecrmImg from './assets/images/childcarecrm.png';
+import niidoImg from './assets/images/niido.jpg';
+import flashMarketImg from './assets/images/flashmarket.png';
+import logoImg from './assets/images/logo.png';
 
 const logotext = "RIYA";
+const logo = logoImg;
 const meta = {
     title: "Riya Solanki",
     description: "I’m Riya Solanki Mobile Application Developer,currently working in Ahmedabad",
@@ -182,6 +188,73 @@ everyday!
     storeLink: "https://play.google.com/store/apps/details?id=com.feo.shopfareast.prd&hl=en_IN",
     appLink: "",
 },
+{
+    img: childcarecrmImg,
+    title: "childCareCRM",
+    description: `
+    childCareCRM is Daycare Childcare Management Marketing Systems Software Programs Strategies. Our online software is designed for todays childcare professional and makes enrollment, billing, and scheduling easy.
+    Key Deliverables:
+    • Design and developed the app in MVC architecture
+    • Design app to suppoert both mobile and tablet
+    • implement search functionality for searching leads
+    • Handling uto logout functionality
+    • Customize list design for various features like schedule, pending lead, email, tours etc
+    • Use custom drop own popup
+  `,
+    storeLink: "",
+    appLink: "",
+},
+{
+    img: niidoImg,
+    title: "Niido",
+    description: `
+    Niido is a residential community and lifestyle brand, which in partnership with Airbnb, is creating a new category of multifamily housing for flexible living. Here we can provide resident and office on lease.
+    Key Deliverables:
+    • Design and developed the app in MVC architecture
+    • Implement unique design pattern which can help to create multiple application from single project
+    • Implement material design and customize design tools
+    • Design app to suppoert both mobile and tablet
+    • Implement Firebase push notification, Crashlytics and Analytics
+    • Use custom calendar, customize date picker, time picker, OTP pin view, counyry code picker
+    • Design timeline view for reservation system
+  `,
+    storeLink: "",
+    appLink: "",
+},
+{
+    img: flashMarketImg,
+    title: "Flash Market Consumer App",
+    description: `
+    Australian mobile phone app company ‘ Flash Market’ have today announced David Reynolds as their ambassador for 2018.
+New to the market, Flash Market will deliver to small business a digital marketing solution to compete with the likes of Amazon, by offering a platform to market last minute offers and special deals in their local communities.
+Founder Matt Gollan described the partnership with Reynolds’ as the ideal way to launch the new App.
+“Flash Market is all about helping small business prosper in local communities. So we were looking for a personality that could represent our brand in the market place. We all know Dave is a country boy – so he gets it – and after that epic Bathurst victory we needed someone that represents the under-dog!”
+For Reynolds, the opportunity came out of nowhere.
+“We basically all met up at my Manager’s house during summer. It was 40 degrees and we all just sat around having a cold drink! Matt was really passionate about the purpose of the app and I related to it. Coming from Albury I know how critical small business and local business is to the community.”
+The Flash Market app will be available on Google Play and the App Store from the start of March 2018.
+
+www.flashmarket.com.au
+  `,
+    storeLink: "",
+    appLink: "",
+},
+{
+    img: flashMarketImg,
+    title: "Flash Market Driver App",
+    description: `
+    Australian mobile phone app company ‘ Flash Market’ have today announced David Reynolds as their ambassador for 2018.
+New to the market, Flash Market will deliver to small business a digital marketing solution to compete with the likes of Amazon, by offering a platform to market last minute offers and special deals in their local communities.
+Founder Matt Gollan described the partnership with Reynolds’ as the ideal way to launch the new App.
+“Flash Market is all about helping small business prosper in local communities. So we were looking for a personality that could represent our brand in the market place. We all know Dave is a country boy – so he gets it – and after that epic Bathurst victory we needed someone that represents the under-dog!”
+For Reynolds, the opportunity came out of nowhere.
+“We basically all met up at my Manager’s house during summer. It was 40 degrees and we all just sat around having a cold drink! Matt was really passionate about the purpose of the app and I related to it. Coming from Albury I know how critical small business and local business is to the community.”
+The Flash Market app will be available on Google Play and the App Store from the start of March 2018.
+
+www.flashmarket.com.au
+  `,
+    storeLink: "",
+    appLink: "",
+},
 ];
 
 const contactConfig = {
@@ -214,4 +287,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    logo
 };

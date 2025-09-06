@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext, socialprofils } from "../content_option";
+import { logotext, socialprofils, logo } from "../content_option";
 import Themetoggle from "../components/themetoggle";
 import { FaHome, FaProjectDiagram, FaUser, FaFileAlt, FaEnvelope } from "react-icons/fa";
 
@@ -18,15 +18,20 @@ const Headermain = () => {
     <>
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
-          <Link className="navbar-brand nav_ac" to="/">
+          <Link className="navbar-brand nav_ac d-flex align-items-center" to="/">
+            <img
+              src={logo}
+              alt="Logo"
+              style={{ width: "40px", height: "40px", objectFit: "contain", marginRight: "8px" }}
+            />
             {logotext}
           </Link>
+
           <div className="d-flex align-items-center">
             <Themetoggle />
-            <button className="menu__button  nav_ac" onClick={handleToggle}>
+            <button className="menu__button nav_ac" onClick={handleToggle}>
               {!isActive ? <VscClose /> : <VscGrabber />}
             </button>
-
           </div>
         </div>
 
@@ -57,7 +62,7 @@ const Headermain = () => {
                   </li>
                   <li className="menu_item">
                     <Link onClick={handleToggle} to="/contact" className="my-3 d-flex align-items-center">
-                      <FaEnvelope className="me-2" /> Contact
+                      <FaEnvelope className="me-2" /> Get in touch with
                     </Link>
                   </li>
                 </ul>

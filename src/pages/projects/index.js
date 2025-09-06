@@ -69,8 +69,9 @@ export const Projects = () => {
             <Modal.Body>
               <img
                 src={selectedProject.img}
+                style={{ width: "400px", height: "300px", objectFit: "fit" }}
                 alt={selectedProject.title}
-                className="img-fluid mb-3"
+                className="mb-3"
               />
               <p style={{ whiteSpace: "pre-line" }}>
                 {selectedProject.description}
