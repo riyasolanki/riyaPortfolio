@@ -2,7 +2,7 @@
 
 A simple portfolio template for developer/designers built with React. 
 
-### [live preview](https://ubaimutl.github.io/riyaPortfolio/)
+### [live preview](https://riyasolanki.github.io/riyaPortfolio/)
 
 [![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/riyaPortfolio/)
 
