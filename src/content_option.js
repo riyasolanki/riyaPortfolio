@@ -1,4 +1,4 @@
-import profileImg from "./assets/images/profile.jpg";
+import profileImg from "./assets/images/profile2.jpeg";
 import itdcImg from './assets/images/itdc.webp';
 import pivitConnexImg from './assets/images/pivitconnex.webp';
 import pivitConnexRiderImg from './assets/images/pivitconnexrider.webp';
