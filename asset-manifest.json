@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/riyaPortfolio/static/css/main.40ff4755.css",
-    "main.js": "/riyaPortfolio/static/js/main.8cef2c5b.js",
+    "main.css": "/riyaPortfolio/static/css/main.8516a370.css",
+    "main.js": "/riyaPortfolio/static/js/main.7fdbc3c6.js",
     "static/media/profile2.jpeg": "/riyaPortfolio/static/media/profile2.7c694891719e606ccdb7.jpeg",
     "static/media/logo.png": "/riyaPortfolio/static/media/logo.b462843a04c3cadc3a33.png",
     "static/media/childcarecrm.png": "/riyaPortfolio/static/media/childcarecrm.f1fbc95cb0fdbb46de55.png",
@@ -18,7 +18,7 @@
     "index.html": "/riyaPortfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.40ff4755.css",
-    "static/js/main.8cef2c5b.js"
+    "static/css/main.8516a370.css",
+    "static/js/main.7fdbc3c6.js"
   ]
 }
