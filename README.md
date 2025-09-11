@@ -4,8 +4,6 @@ A simple portfolio template for developer/designers built with React.
 
 ### [live preview](https://riyasolanki.github.io/riyaPortfolio/)
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/riyaPortfolio/)
-
 ### Features
 
 - Fully Responsive
@@ -18,7 +16,7 @@ A simple portfolio template for developer/designers built with React.
 
 Get the code
 
-<pre>git clone https://github.com/ubaimutl/riyaPortfolio.git</pre>
+<pre>git clone https://riyasolanki.github.io/riyaPortfolio.git</pre>
  
 Install required dependencies
 
