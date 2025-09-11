@@ -19,19 +19,21 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Riya Solanki",
+    title: "Hi, I'm Riya Solanki",
     animated: {
-        first: "Building high-performance mobile apps with React Native & Android",
-        second: "I craft seamless cross-platform mobile experiences",
-        third: "React Native Developer | Android Specialist",
+        first: "Delivering high-performance mobile apps with React Native & Android",
+        second: "Creating seamless, scalable cross-platform solutions",
+        third: "React Native Expert | Android Developer | UI/UX Enthusiast",
     },
-    description: "I specialize in designing and developing cross-platform mobile apps that are fast, reliable, and user-friendly. With over 6 years of experience in React Native and Android, I bring expertise in performance optimization, API integration, and smooth UI/UX design. My focus is on delivering secure, scalable, and high-quality apps that meet client needs and provide excellent user experiences.",
+    description:
+        "I’m a dedicated mobile app developer with over 6 years of experience specializing in React Native and native Android development. I build fast, scalable, and user-centric mobile applications with a focus on clean architecture, responsive UI/UX, and seamless API integrations. From performance optimization to secure, production-ready deployment, I deliver cross-platform solutions that align with business goals and enhance user engagement.",
     your_img_url: profileImg,
 };
 
 const dataabout = {
     title: "Who I Am",
-    aboutme: "I’m a Mobile App Developer with 6+ years of experience in building high-performance, scalable mobile applications using React Native and Android (Java/Kotlin). I specialize in creating cross-platform solutions, optimizing app performance, and delivering pixel-perfect UI/UX designs. I have proven expertise in integrating third-party SDKs, managing state with Redux and MobX, and enhancing app functionality with Firebase, Stripe, and MapBox. Passionate about technology and collaboration, I strive to deliver secure, user-friendly, and high-quality applications on time.",
+    aboutme:
+        "I’m a Mobile App Developer with over 6 years of experience building scalable, high-performance applications using React Native and native Android (Java/Kotlin). I specialize in developing cross-platform solutions, optimizing performance, and delivering pixel-perfect UI/UX. My expertise includes third-party SDK integration, state management with Redux and MobX, and enhancing app functionality with tools like Firebase, Stripe, and Mapbox. Passionate about clean code and collaboration, I focus on building secure, reliable, and user-friendly mobile applications that meet both user and business needs.",
 };
 const worktimeline = [{
     jobtitle: "Freelance React Native Developer",
@@ -50,53 +52,129 @@ const worktimeline = [{
 },
 ];
 
-const skills = [{
-    name: "Android Java",
-    value: 80,
-},
-{
-    name: "Kotlin",
-    value: 85,
-},
-{
-    name: "Javascript",
-    value: 80,
-},
-{
-    name: "Typescript",
-    value: 70,
-},
-{
-    name: "Multi-language Support",
-    value: 80,
-},
+// const skills = [{
+//     name: "Android Java",
+//     value: 80,
+// },
+// {
+//     name: "Kotlin",
+//     value: 85,
+// },
+// {
+//     name: "Javascript",
+//     value: 80,
+// },
+// {
+//     name: "Typescript",
+//     value: 70,
+// },
+// {
+//     name: "Multi-language Support",
+//     value: 80,
+// },
+// ];
+
+const skills = [
+    {
+        category: "Languages & Frameworks",
+        items: [
+            { name: "Java", value: 80 },
+            { name: "Kotlin", value: 85 },
+            { name: "JavaScript", value: 80 },
+            { name: "TypeScript", value: 70 },
+        ],
+    },
+    {
+        category: "Mobile Development",
+        items: [
+            { name: "React Native", value: 90 },
+            { name: "Android SDK", value: 85 },
+            { name: "Multiplatform Support (iOS/Android)", value: 85 },
+            { name: "Multi-language Support", value: 80 },
+        ],
+    },
+    {
+        category: "State Management",
+        items: [
+            { name: "Redux", value: 85 },
+            { name: "MobX", value: 80 },
+        ],
+    },
+     {
+        category: "Offline Support",
+        items: [
+            { name: "SQLite", value: 85 },
+            { name: "Async Storage", value: 80 },
+        ],
+    },
+    {
+        category: "Tools & Libraries",
+        items: [
+            { name: "Expo", value: 80 },
+            { name: "React Navigation", value: 85 },
+            { name: "UI Libraries (NativeBase, RN Paper)", value: 80 },
+            { name: "Firebase (Auth, Firestore, Crashlytics)", value: 85 },
+            { name: "Stripe Integration", value: 75 },
+            { name: "Mapbox", value: 70 },
+        ],
+    },
+    {
+        category: "Testing & Debugging",
+        items: [
+            { name: "Jest", value: 60 },
+            { name: "Debugging & Crash Analytics", value: 80 },
+        ],
+    },
+    {
+        category: "Version Control & CI/CD",
+        items: [
+            { name: "Git", value: 90 },
+            { name: "GitHub / GitLab", value: 85 },
+             { name: "SVN", value: 70 },
+        ],
+    },
+    {
+        category: "Others",
+        items: [
+            { name: "Custom Native Modules", value: 75 },
+            { name: "Push Notifications", value: 80 },
+            { name: "Real-time Tracking", value: 75 },
+            { name: "Deep Linking", value: 70 },
+        ],
+    }
 ];
 
 const services = [
     {
         title: "React Native Development",
-        description: "Building cross-platform Android & iOS apps using React Native and TypeScript with scalable architectures."
+        description:
+            "Developing cross-platform mobile applications for Android and iOS using React Native and TypeScript, following scalable and maintainable architecture patterns.",
     },
     {
         title: "Native Android Development",
-        description: "Developing high-performance Android apps using Java and Kotlin with MVVM/MVC architecture."
+        description:
+            "Building high-performance Android applications with Java and Kotlin, using architectural patterns like MVVM and MVC for clean, maintainable code.",
     },
     {
         title: "API & SDK Integration",
-        description: "Integrating Firebase, Stripe, MapBox, and third-party APIs for authentication, payments, maps, and real-time features."
+        description:
+            "Integrating third-party APIs and SDKs such as Firebase, Stripe, and Mapbox to enable authentication, payments, maps, and real-time features.",
     },
     {
         title: "State Management",
-        description: "Implementing Redux and MobX to ensure efficient state handling and improved app stability."
+        description:
+            "Implementing robust state management solutions with Redux and MobX to enhance app stability, performance, and maintainability.",
     },
     {
         title: "Performance Optimization",
-        description: "Optimizing code, reducing app size, and improving load times with modularization and asset compression."
+        description:
+            "Improving application speed, responsiveness, and efficiency through code optimization, asset compression, lazy loading, and modularization.",
     },
     {
-        title: "Custom Features",
-        description: "Implementing push notifications, real-time tracking, deep linking, multi-language support, and IoT integrations."
-    }
+        title: "Custom Features Development",
+        description:
+            "Implementing advanced mobile functionalities including push notifications, real-time location tracking, deep linking, multilingual support, and IoT integration.",
+    },
 ];
 
 const dataportfolio = [{

@@ -55,7 +55,7 @@ export const About = () => {
             </table>
           </Col>
         </Row>
-        <Row className="sec_sp">
+        {/* <Row className="sec_sp">
           <Col lg="5">
             <h3 className="color_sec py-4">Skills</h3>
           </Col>
@@ -78,10 +78,36 @@ export const About = () => {
               );
             })}
           </Col>
+        </Row> */}
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Skills</h3>
+          </Col>
+          <Col lg="7">
+            {skills.map((group, groupIndex) => (
+              <div key={groupIndex} className="mb-5">
+                <h4 className="categary-title">{group.category}</h4>
+                {group.items.map((skill, skillIndex) => (
+                  <div key={skillIndex}>
+                    <h5 className="progress-title">{skill.name}</h5>
+                    <div className="progress">
+                      <div
+                        className="progress-bar"
+                        style={{ width: `${skill.value}%` }}
+                      >
+                        <span className="progress-value">{skill.value}%</span>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </Col>
         </Row>
+
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

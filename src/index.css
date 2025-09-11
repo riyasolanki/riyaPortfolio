@@ -1,7 +1,7 @@
 :root {
   --bg-color: #1e1e1e;              /* deep dark grey background */
   --primary-color: #2a2a2a;         /* lighter dark grey for cards/containers */
-  --secondary-color: #00b4d8;       /* teal accent (contrasts well on dark) */
+  --secondary-color: #909894;       /* teal accent (contrasts well on dark) */
   --text-color: #ffffff;            /* bright white for primary text */
   --text-color-2: #d1d1d1;          /* soft grey for secondary text */
   --text-color-3: #ff4d4d;          /* bright coral/red for highlights */
@@ -26,12 +26,12 @@
 [data-theme="light"] {
   --bg-color: #fdfdfd;             /* very light gray - better than stark white */
   --primary-color: #ffffff;        /* clean white for cards, sections */
-  --secondary-color: #076b80;      /* vibrant teal-blue accent */
-  --secondary-color-dark: #4a92aa; /* deeper teal for hover or active states */
+  --secondary-color: #909894;      /* vibrant teal-blue accent */
+  --secondary-color-dark: #7d9187; /* deeper teal for hover or active states */
 
   --text-color: #1a1a1a;           /* nearly black - strong readability */
   --text-color-2: #495057;         /* medium gray - great for secondary text */
-  --text-color-3: #ff6b6b;         /* coral red - perfect for highlights and alerts */
+  --text-color-3: #7d9187;         /* coral red - perfect for highlights and alerts */
 
   --text-muted: #6c757d;           /* muted grey for captions, helper text */
   --border-color: #e0e0e0;         /* soft border for light UI */
